@@ -30,3 +30,8 @@ But when it get reverse from dev to original `cp` command will copy unwanted tes
 ```sh
 ./org2dev.sh master true
 ```
+
+# Combine file
+This shell script used to combine multiple files and give an ouput file. If the output file already exist it clear all the file content and rewrite it.
+* `file1`, `file2`, `file3`, `output` varibales need to be changed where first 3 is input files relative path + filename  that need to be combined and output is the destination file
+
